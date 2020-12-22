@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.square {
+    display: inline-block;
+    text-align: center;
+    width: 50px;
+    background-color: #eee;
+    color: #eee;
+    padding: 40px;
+    font-size: 60px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.player,
+.winner {
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+button {
+    margin-top: 10px;
+    width: 100px;
+    height: 30px;
+    background-color: #eee;
+    cursor: pointer;
+}
